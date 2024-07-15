@@ -23,7 +23,7 @@ class _TabsScreenState extends State<TabsScreen> {
   Widget build(BuildContext context) {
     Widget activeScreen = const CategoriesScreen();
 
-    var activePageTitle = 'Categories 2';
+    var activePageTitle = 'Categories';
     if (activePageIndex == 1) {
       setState(() {
         activePageTitle = 'Favourites';
